@@ -112,4 +112,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 CORS_ALLOW_ALL_ORIGINS = True
 DEBUG = False
 
+ALLOWED_HOSTS = [
+    "fileshare-ggz0.onrender.com",  
+    "localhost",
+    "127.0.0.1"
+]
 
